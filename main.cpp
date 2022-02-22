@@ -12,8 +12,8 @@ bool is_inVector(vector<int> tab,int n);
 
 int main(){
 
-    ifstream file("input.txt");
-    ofstream output("output.txt");
+    ifstream file("qualification_round_2021.in/d.txt");
+    ofstream output("d.output.txt");
     string line("");
     vector<string> street_pass;
     vector<int> intersec_pass;
@@ -82,8 +82,7 @@ int main(){
             for(int j(0); j<str.size(); j++){
                 cout << str[j]<<"\n";
                 //Inserer les rues entrantes
-                output << str[j] <<"\n";
-                
+                output << str[j] <<"\n";   
             }
         }
     }
